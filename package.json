@@ -1,14 +1,17 @@
 {
-  "name": "x-www-form-urlencoded",
+  "name": "x-www-form-urlencode",
   "version": "0.0.0",
   "description": "It encodes/decodes `application/x-www-form-urlencoded`.",
   "main": "index.js",
+  "bin": {
+    "x-www-form-encode": "bin/cmd.js"
+  },
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose; jest --coverage > /dev/null"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sterpe/x-www-form-urlencoded.git"
+    "url": "git+https://github.com/sterpe/x-www-form-urlencode.git"
   },
   "keywords": [
     "application/x-www-form-urlencoded",
@@ -17,10 +20,13 @@
   "author": "Steve Terpe <sterpe@rubiconproject.com> (https://github.rp-core.com/sterpe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sterpe/x-www-form-urlencoded/issues"
+    "url": "https://github.com/sterpe/x-www-form-urlencode/issues"
   },
-  "homepage": "https://github.com/sterpe/x-www-form-urlencoded#readme",
+  "homepage": "https://github.com/sterpe/x-www-form-urlencode#readme",
   "devDependencies": {
     "jest-cli": "^0.4.19"
+  },
+  "dependencies": {
+    "minimist": "^1.1.3"
   }
 }
