@@ -2,7 +2,7 @@ jest.dontMock('../')
 
 describe("x-www-form-urlencoded: decode"
 , function () {
-	it([	'it should decode a given string `s` from '
+	it([	'should decode a given string `s` from '
 		, '`application/x-www-form-urlencoded` format.'
 	].join("")
 	, function () {

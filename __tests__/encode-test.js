@@ -2,7 +2,7 @@ jest.dontMock('../')
 
 describe('x-www-form-urlencoded: encode'
 , function () {
-	it([	'it should encode a given string `s` into '
+	it([	'should encode a given string `s` into '
 		, '`application/x-www-form-urlencoded` format.'
 	].join("")
 	, function () {
