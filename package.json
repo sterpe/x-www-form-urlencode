@@ -1,0 +1,26 @@
+{
+  "name": "x-www-form-urlencoded",
+  "version": "0.0.0",
+  "description": "It encodes/decodes `application/x-www-form-urlencoded`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/x-www-form-urlencoded.git"
+  },
+  "keywords": [
+    "application/x-www-form-urlencoded",
+    "x-www-form-urlencoded"
+  ],
+  "author": "Steve Terpe <sterpe@rubiconproject.com> (https://github.rp-core.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/x-www-form-urlencoded/issues"
+  },
+  "homepage": "https://github.com/sterpe/x-www-form-urlencoded#readme",
+  "devDependencies": {
+    "jest-cli": "^0.4.19"
+  }
+}
