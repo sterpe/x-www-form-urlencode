@@ -7,7 +7,7 @@
     "x-www-form-encode": "bin/cmd.js"
   },
   "scripts": {
-    "test": "jest --verbose; jest --coverage > /dev/null"
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
