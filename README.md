@@ -9,7 +9,7 @@ xform.encode(' %&+£€')
 // "+%25%26%2B%C2%A3%E2%82%AC"
 
 xform.decode('+%25%26%2B%C2%A3%E2%82%AC')
-// " %&+#€"
+// " %&+£€"
 
 xform.encode('\n');
 // "%0D%0A"
